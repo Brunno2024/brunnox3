@@ -8,15 +8,15 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['51958959882', '👑 Mystic - Creador 👑', true],
-  ['5493884873298','💫 Mystic - Tester Fabri115💫', true]
+  ['5493884466824', '👑 Mystic - Creador 👑', true],
+  ['5493884873421','💫 Mystic - Tester Fabri115💫', true]
 ];
 
 global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = '(☞ﾟ∀ﾟ)☞';
-global.author = '★JoseAVelazco★';
+global.author = '◥꧁☠︎ ¡Brunnox BOT! ☠︎꧂◤';
 global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★';
 global.titulowm = '🤖 ＴＨＥ ＭＹＳＴＩＣ － ＢＯＴ 🤖';
 global.titulowm2 = `乂  𝚃 𝙷 𝙴  𝙼 𝚈 𝚂 𝚃 𝙸 𝙲  -  𝙱 𝙾 𝚃  乂`
