@@ -25,6 +25,12 @@ const vn = './media/Brr.mp3';
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
+if (!chat.isBanned && m.text.match(/(atena|Atenas|atenas|Atena|Mentira|mentira|te equivocas|)/gi)) {
+if (!db.data.chats[m.chat].audios) return;
+const vn = './media/Atena.mp3'';
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
+
 if (!chat.isBanned && m.text.match(/(Puto bot|puto Bot|invecil|🖕🏻|no sirves|NOOOO)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
 const vn = './media/Puto bot.mp3';
